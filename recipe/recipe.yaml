@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mjviser
-  version: "0.0.13"
+  version: "0.0.14"
   build_number: 0
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/mujocolab/mjviser/archive/refs/tags/v${{ version }}.zip
-  sha256: 9afacc53883842c289331cf66ffa031fe5f1781ed7930b53907d53ddd70aae0d
+  sha256: 208ed27654510e8e8753382ff0b4f15a53c058cfc02e5c1309ab953d91b22b7a
 
 build:
   noarch: python
